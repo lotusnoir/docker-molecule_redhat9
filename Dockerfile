@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9/ubi-init:9.3-12
+FROM redhat/ubi9-init:9.7 
 LABEL maintainer="lotusnoir"
 
 ENV container=docker
